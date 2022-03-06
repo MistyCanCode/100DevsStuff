@@ -1,0 +1,75 @@
+html{
+background-color: #66d9ff;
+}
+body{
+    border: 15px solid #00cc99;
+    color: white;
+    line-height: 1 rem;
+    font-family: 'Gentium Book Basic', serif;
+    padding: 25px;
+    margin: 50px auto;
+    width: 75%;
+}
+h1{
+    font-style: italic;
+    font-size: 2rem;
+    text-align: center;
+    line-height: 2rem;
+}
+h2{
+    font-family: 'Source Sans Pro', 'Nunito Sans', Roboto, sans-serif;
+    font-weight: bold;
+}
+img{
+    float: right;
+    height: 350px;
+    width: auto;
+    margin-top: -100px;
+}
+p{
+    font-weight: bold;
+    line-height: 1.5rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: center;
+    padding: 5px;
+    line-height: 2rem;
+}
+li{
+    padding: 2px;
+}
+a{
+    font-family: 'Source Sans Pro', 'Nunito Sans', Roboto, sans-serif;
+    font-weight: 400;
+    color:#00cc99;
+    margin: 2px;
+    padding: 2px;
+}
+span{
+    border-left: 2px solid rgba(45, 45, 45, .5);
+    margin-left: -5px;
+    padding-left: 10px;
+}
+h4 {
+    color: white;
+    font-family: 'Source Sans Pro', 'Nunito Sans', Roboto, sans-serif;
+    font-weight:bold;
+}
+
+h1 + ul > li > h4{
+    color: white;
+    text-decoration: none;
+    padding: 2px;
+    margin:2px;
+    border: none;
+}
+
+section section {
+    float: left;
+}
+

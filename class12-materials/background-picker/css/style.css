@@ -1,0 +1,51 @@
+/******************************************
+/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+h1, h2{
+  text-align: center;
+}
+img{
+  display: block;
+  height: 300px;
+  margin: 0 auto;
+}
+ul{
+  width: 100px;
+  height: 250px;
+  margin: 0 auto;
+  list-style: none;
+  padding: 0;
+}
+li{
+  width: 94px;
+  height: 50px;
+  border: 2px solid black;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+#purple{
+  background: rgba(128,53,168,1);
+}
+#green{
+  background: rgba(60,202,141,1);
+}
+#blue{
+  background: rgba(0,169,243,1);
+}
+#yellow{
+  background: rgba(255,255,1,1);
+}
+#pink{
+  background: rgba(254,16,146,1);
+}

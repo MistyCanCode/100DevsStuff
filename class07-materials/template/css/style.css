@@ -1,0 +1,68 @@
+/* Box Model Hack */
+* {
+  box-sizing: border-box;
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+html{
+  font-size: 62.5%;
+}
+
+body {
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: silver;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+header, footer {
+  height: 150px;
+  border: 3px solid black;
+  clear: both;
+}
+section{
+  height: 300px;
+  width: 20%;
+  border: 2px solid black;
+  float: left;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.thiccOne{
+  width: 40%;
+}
+
+@media screen and (max-width: 600px){
+  section{
+    background-color: green;
+  }
+}
+@media (min-width: 601px) and (max-width: 900px){
+  section{
+    background-color: blue;
+    width: 33.3333%
+  }
+  .thiccOne{
+    display: none;
+  }
+}

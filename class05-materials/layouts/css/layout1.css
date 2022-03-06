@@ -1,0 +1,19 @@
+*{
+    box-sizing: border-box;
+}
+header, footer{
+    height: 200px;
+    width: 100%;
+    border: 2px solid black;
+    clear: both;
+}
+section{
+    height: 250px;
+    width: 50%;
+    border: 2px solid black;
+}
+article{
+    height: 275px;
+    width: 33.33%;
+    border: 2px solid black;
+}

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="html and css only clone of bbc.com">
+    <meta name="keywords" content="html, css, learn programming, 100Devs, Leon Noel">
+
+    <title>My version of BBC news HTML and CSS only</title>
+
+    <!--css styles-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--google font-->
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600&family=Source+Sans+Pro:wght@300;400&display=swap');
+    </style>
+
+</head>
+<header>
+    <nav>
+        <ul class="left">
+            <li class="bbcLogo">&emsp; &emsp; &emsp; &emsp; &emsp;</li>
+            <li class="signIn">&emsp;&emsp;&emsp;</li>
+            <li class="signInText">Sign In</li>
+            <li><a href="https://www.bbc.com/">Home</a></li>
+            <li><a href="https://www.bbc.com/news">News</a></li>
+            <li><a href="https://www.bbc.com/sport">Sports</a></li>
+            <li><a href="https://www.bbc.com/reel">Reel</a></li>
+            <li><a href="https://www.bbc.com/worklife">Worklife</a></li>
+            <li><a href="https://www.bbc.com/travel">Travel</a></li>
+            <li><a href="https://www.bbc.com/future">Future</a></li>
+            <li><a href="https://www.bbc.com/culture">Culture</a></li>
+            <li><a href="">More &#129171; </a></li>
+        </ul>
+        <form class="right">
+            <input type="text" id="search" name="search" placeholder="Search  &#128269">
+        </form>
+    </nav>
+</header>
+<body>
+    <section class="topSection">
+        <h2 class="left">Welcome to BBC.com</h2>
+        <h2 class="right">Thursday, 13 August</h2>
+    </section>
+   <section>
+        <a href="https://www.bbc.com/news/world-middle-east-53770859"><section class="israel">
+            <h1>Israel and UAE strike historic peace deal</h1>
+            <h3>Israel and the UAE agree to normalize relations, marking the third Israel/Arab peace deal.</h3>
+            <span>MIDDLE EAST</span>
+        </section></a>
+        <section>
+            <a href="https://www.bbc.com/news/world-us-canada-53742684"><section class="goHome">
+                <h3>Americans, go home: Tension at Canada-US border</h3>
+                <span>CANADA</span>
+            </section></a>
+            <a href="https://www.bbc.com/news/health-53741966"><section class="vax">
+                <h3>How will the world vaccinate seven billion people?</h3>
+                <span>HEALTH</span>
+            </section></a>
+            <a href="https://www.bbc.com/worklife/article/20200812-the-online-work-gyms-that-help-spur-productivity"><section class="productivity">
+                <h3>The online 'productivity gyms'</h3>
+                <span>WORKLIFE</span>
+            </section></a>
+            <a href="https://www.bbc.com/culture/article/20200812-vctor-jara-the-folk-singer-murdered-for-his-music"><section class="music">
+                <h3>The folk singer murdered for his music</h3>
+                <span>CULTURE</span>
+            </section></a>
+        </section>
+   </section> 
+   <section class="inline">
+       <h2>News</h2>
+       <article class="left">
+           <a href="https://www.bbc.com/news/election-us-2020-53754294"><img src="data:image/jpeg;base64,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" height="300x" width="450px" alt="Biden/Harris"/></a>
+           <h2>Biden and Harris say Trump has left US 'in tatters'</h2>
+           <p>Joe Biden and running mate Kamala Harris call President Donald Trump a 'whining' incompetent leader.</p>
+           <span>US ELECTION 2020</span>
+       </article>
+       <article class="left">
+           <a href="https://www.bbc.com/news/world-europe-53761747"><img src="https://th.bing.com/th/id/OIP.mGLTNCk-O7rmB_cLot7GdAHaEK?w=285&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="solidarity" height="300px" width="450px"/></a>
+           <h2>Women form 'solidarity chains' in Belarus protests</h2>
+           <p>Women take to the streets of Minsk dressed in white as they demand an end to police brutality.</p>
+           <span>EUROPE</span>
+       </article>
+       <article class="trump left">
+           <a href="https://www.bbc.com/news/world-us-canada-53761744"><img src="https://ichef.bbci.co.uk/news/976/cpsprodpb/41FB/production/_113919861_hi045965426.jpg"alt="trumpsHair" height="300px" width="450px"/></a>
+           <h2>Trump says low-pressure shower heads won't wash</h2>
+           <p>The US calls for rules to be eased after Donald Trump complained of issues washing his hair.</p>
+           <span>US &amp; CANADA</span>
+       </article>
+   </section>
+   <footer></footer>
+   <!--any <script type="text/javascript src="js/whatever.js"></script> would go here-->
+</body>
+</html>
