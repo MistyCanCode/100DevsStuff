@@ -12,7 +12,25 @@
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
+		<h1>Temperature Converter</h1>
+		<div>
+			<form>
+				<label for="celsius">Celsius
+					<input type="text" id="cel" placeholder="enter temperature celsius">
+				</label>
+				<button id="cToF" type="button" name="firstButton">Convert to Farenheit</button>
+			</form>
+			<h3 id="convertedToF"></h3>
+		</div>
+		<div>
+			<form>
+				<label for="farenheit">Farenheit
+					<input type="text" id="far" placeholder="enter temperature celsius">
+				</label>
+				<button id="fToC" type="button" name="secondButton">Convert to Celsius</button>
+			</form>
+			<h3 id="convertedToC"></h3>
+		</div>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>

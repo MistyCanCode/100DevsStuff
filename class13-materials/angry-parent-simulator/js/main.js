@@ -13,6 +13,7 @@ function run() {
   document.querySelector('#placeToYell').innerText = `${fName} ${fMidName} ${lMidName} ${lName}`
 }
 
+// This function will use speech synthesis to actually yell your name
 // const synth = window.speechSynthesis;
 // document.querySelector('#yell').addEventListener('click', run)
 //
