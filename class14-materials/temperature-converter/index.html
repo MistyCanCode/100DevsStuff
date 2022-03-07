@@ -5,14 +5,28 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Temp converter</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 	<body>
-		
+		<h1>Temperature-Converter</h1>
+		<form>
+			<label for="far">Farenheit
+				<input name="far" id="fTemp" type="text" placeholder="temp in farenheit">
+			</label>
+			<button for="far" id="fCheck" type="button">Convert to Celsius</button>
+		</form>
+		<h3 id="placeForCelsius"></h3>
+
+		<form>
+			<label for="cel">Celcius
+				<input for="cel" id="cTemp" type="text" placeholder="temp in celcius">
+			</label>
+			<button for="cel" id="cCheck" type="button">Convert to Farenheit</button>
+		</form>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
