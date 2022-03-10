@@ -20,7 +20,10 @@
   /******************************************
   /* BASE STYLES
   /*******************************************/
-  
+  html{
+      font-family: 'Cordo', 'Nanum Myeongjo', 'Source Serif Pro', serif;
+      letter-spacing: .15rem;
+  }
   body {
     height: 100vh;
     width: 100vw;
@@ -31,45 +34,173 @@
   /* LAYOUT
   /*******************************************/
   nav{
-      height: 80px;
+      height: 65px;
       width: 100%;
       display: flex;
+      flex-direction: row;
       justify-content: space-around;
-      padding: 10px 20px;
+      padding: 5px 5px;
+      font-weight: bolder;
+  }
+  nav img{
+      height: 45px;
+      width: 75px;
+      padding-top: 10px;
+  }
+  nav ul{
+      flex-direction: row;
+      list-style-type: none;
+      margin-bottom: 10px;
+  }
+  nav li , nav a{
+      flex-direction: row;
+      display: inline;
+      color: black;
+      text-decoration: none;
+      padding: 5px;
+      font-size: .7rem;
   }
  header{
      display: flex;
      flex-direction: column;
-     height: 35%;
-     width: 100%;
+     align-content: space-around;
+     /* height: 50vh;
+     width: 100vw; */
  }
- header h1, h2, a, div{
+ header h1{
+     color: white;
      padding-top: 30%;
      padding-left: 15%;
+     width: 50%;
+ }
+ header h2{
+     font-size: .9rem;
+     color: white;
+     padding-left: 15%;
+ }
+ header a{
+     color: white;
+     background-color : black;
+     border: 1px solid black;
+     height: 25px;
+     width: 125px;
+     font-size: .7rem;
+     line-height: 1.5rem;
+     margin-left: 25%;
+     padding-left: 10px;
+     text-decoration: none;
+ }
+ header div a{
+     margin: 1%;
  }
   
   /******************************************
   /* ADDITIONAL STYLES
   /*******************************************/
   
-
+.bolder{
+    font-family: 'Nanum Myeongjo';
+    font-weight: 800;
+}
+.whiteButton{
+    color: white;
+     background-color : black;
+     border: 1px solid black;
+     height: 25px;
+     width: 125px;
+     font-size: .7rem;
+     line-height: 1.5rem;
+     padding: 2%;
+     text-decoration: none;
+}
+.blackButton{
+    color: black;
+     background-color : white;
+     border: 1px solid white;
+     height: 25px;
+     width: 125px;
+     font-size: .7rem;
+     line-height: 1.5rem;
+     padding: 2%;
+     text-decoration: none;
+}
 .welcome {
 width:100%;
-height: 400px;
-background: no-repeat url(https://i.picsum.photos/id/970/900/400.jpg?hmac=uRp0EftI2tM0x177L0REODO47W5a9JzP-h9DKKXkBAg);
+height: 110%;
+background-image: url("https://github.com/MistyCanCode/100DevsStuff/blob/master/class10-materials/salon/assets/header-background.JPG?raw=true");
 clip-path: polygon(100% 0.8%, 100% 72.8%, 90.1% 85.5%, 84.1% 89.3%, 77.1% 88%, 71.2% 86.5%, 45% 82%, 0% 66.3%, 0% 0%);
+background-repeat: no-repeat;
+background-size: cover;
 margin: 0;
 }
+.welcome::before{
+    content: '';
+    width: 100%;
+    height: 105%;
+    background:#948282;
+    display:block;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    clip-path: polygon(100% 0.8%, 100% 72.8%, 90.1% 85.5%, 84.1% 89.3%, 77.1% 88%, 71.2% 86.5%, 45% 82%, 0% 66.3%, 0% 0%);
+}
 .coupon{
-    height: 100px;
-    width: 70px;
+    height: 275px;
+    width: 225px;
     background: black;
     color: white;
-    margin-bottom: 70%;
+    margin-left: 25%;
+    margin-top: -25%;
+    font-size: .7rem;
+    line-height: 1.25rem;
+    padding: 10px;
+    text-align: center;
+    position:absolute;
+}
+.coupon h4, .coupon a {
+    display:inline-block;
+    text-decoration: none;
+    color: white;
+}
+.twenty{
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 0;
 }
 .book{
     background: white;
     color: black;
-    padding: 5%;
-    margin-bottom: -10%;
+    padding: 1%;
+    /* margin-bottom: -10%; */
+}
+.circle{
+    height: 45px;
+    width: 45px;
+    color: #948282;
+    background: white;
+    border: 1px solid white;
+    border-radius: 50%;
+    font-size: 2rem;
+    font-weight: bolder;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 0;
+}
+.arrows{
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    align-content:center;
+    margin: 0;
+    padding: 5px;
+    text-align: center;
+}
+.iconSection{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.third{
+    width: 33%;
+    height: 250px;
 }
