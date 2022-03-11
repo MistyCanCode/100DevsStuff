@@ -285,7 +285,7 @@ h4.blackButton {
     width: 100%;
     height: 110%;
     margin: 3%;
-    margin-top: 2%;
+    margin-top: 7%;
     background-image: url("https://github.com/MistyCanCode/100DevsStuff/blob/master/class10-materials/salon/assets/banner.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
@@ -375,5 +375,50 @@ h4.blackButton {
         align-items: center;
         align-content: center;
         margin: 0 auto;
+    }
+    .welcome{
+        background-size: contain;
+        height: 100%;
+    }
+    .iconSection{
+        margin-top: 20%;
+    }
+    .momentum{
+        margin-top: 25%;
+    }
+    .play{
+        display: none;
+    }
+    .offer{
+        margin-top: 35%;
+    }
+    .center{
+        display: none;
+    }
+}
+@media screen and (max-width: 450) {
+    *{
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .welcome{
+        background-size: cover;
+        height: 100%;
+    }
+    .iconSection{
+        margin-top: 20%;
+    }
+    .momentum{
+        margin-top: 25%;
+    }
+    .play{
+        display: none;
+    }
+    .offer{
+        margin-top: 35%;
+    }
+    .center{
+        display: none;
     }
 }
