@@ -140,10 +140,10 @@
 }
 .welcome {
 width:100%;
-height: 145%;
+height: 175%;
 background-image: url("https://github.com/MistyCanCode/100DevsStuff/blob/master/class10-materials/salon/assets/header-background.JPG?raw=true");
 background-repeat: no-repeat;
-background-size:contain;
+background-size:cover;
 clip-path: polygon(100% 0.8%, 100% 72.8%, 90.1% 85.5%, 84.1% 89.3%, 77.1% 88%, 71.2% 86.5%, 45% 82%, 0% 66.3%, 0% 0%);
 margin: 0;
 background-color: #948282;
@@ -230,7 +230,7 @@ third.h4, third.p{
 .momentum{
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-between;
     width: 100%;
     margin-top: 5%;
     /* background: #bdadad; */
@@ -283,7 +283,9 @@ h4.blackButton {
 }
 .offer{
     width: 100%;
+    height: 110%;
     margin: 3%;
+    margin-top: 2%;
     background-image: url("https://github.com/MistyCanCode/100DevsStuff/blob/master/class10-materials/salon/assets/banner.jpg?raw=true");
     background-repeat: no-repeat;
     background-size: cover;
@@ -308,6 +310,63 @@ h4.blackButton {
     margin-top: 5%;
     margin-left:35%;
 }
+.lookbook{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 125%;
+    padding: 1%;
+    margin-top: 5%;
+}
+.ourLookbook{
+    width: 100%;
+    text-align: center;
+    font-style: italic;
+    font-weight: 800;
+    margin-top: 20%;
+    font-size: 1.5rem;
+}
+.column1, .column2, .column3{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    height: 95%;
+    padding: 1%;
+}
+.column1 img, .column3 img{
+    height: 25%;
+    width: 95%;
+    border-radius: 1%;
+    padding: 1%;
+}
+.column1 img + img, .column3 img + img{
+    height: 72%;
+    width: 95%;
+    border-radius: 1%;
+    padding: 1%;
+}
+.column2 img{
+    width: 95%;
+    height: 72%;
+    border-radius: 1%;
+    padding: 1%;
+}
+.column2 img + img{
+    height: 25%;
+    width: 95%;
+    border-radius: 1%;
+    opacity: .5;
+    filter:brightness(50%);
+}
+.center {
+    position: absolute;
+    font-size: 12rem;
+    font-weight: 900;
+    color: white;
+    margin-top: 46%;
+    margin-left: 12%;
+  }
 @media screen and (max-width: 1025) {
     *{
         display: flex;
