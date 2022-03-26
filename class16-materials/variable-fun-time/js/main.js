@@ -14,6 +14,10 @@ let num3 = dance + 25;
 alert(num3);
 //--- Hard
 //create a variable that holds the h1
-let h = document.querySelector(HTMLElement("h1"));
+let h = document.querySelector("h1");
 //add an event listener to that element that console logs the sum of the two previous variables
-let newSum = document.querySelector();
+h.addEventListener('click', sum)
+
+function sum(){
+    console.log(num2 + Number(dance))
+}
