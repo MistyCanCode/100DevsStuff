@@ -6,33 +6,16 @@
 *{
   box-sizing: border-box;
 }
-body{
-  text-align: center;
-}
+
 /******************************************
 /* LAYOUT
 /*******************************************/
 img{
   display: block;
   margin: 0 auto;
-  height: 200px;
 }
-h2, h3, h4{
-  margin: 25px 50px;
-  padding: 10px;
-  text-align: center;
-}
-ul, li{
-  list-style-type: none;
-  text-decoration: none;
-  text-align: center;
-  align-items: center;
-}
-br{
-  border-top: 3px solid black;
-  line-height: 2;
-  width: 70%;
-}
+
+
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
