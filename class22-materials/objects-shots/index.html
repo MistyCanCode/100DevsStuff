@@ -5,7 +5,7 @@
     	<meta name="description" content="This is where your description goes">
     	<meta name="keywords" content="one, two, three">
 
-		<title>Title in the tab</title>
+		<title>Get My Drink</title>
 
 		<!-- external CSS link -->
 		<link rel="stylesheet" href="css/normalize.css">
@@ -13,13 +13,29 @@
 	</head>
 	<body>
 
-		<h1>Which Cocktail?</h1>
-		<input type="text" name="" value="">
-		<button type="button" name="button">Get Cocktail</button>
+		<h1>Want a drink but don't know what to make?</h1>
+    <h2>Enter a liquor in the textarea and let me decide<br/>Or just click <span>get my drink</span> and see what happens</h2>
+		<form action="">
+			<input type="text" name="liquor" id="liquor" value="">
+			<!-- <input type="submit" value="submit"> -->
+			<button type="button" id="button" name="button">get my drink</button>
+		</form>
 
-		<h2>Name</h2>
+		<h2 class="name">Name</h2>
 		<img src="" alt="">
-		<h3>Instructions</h3>
+		<hr/>
+		<h4 id="ingredients">Ingredients: </h4>
+		<ul>
+			<li id="one"></li>
+			<li id="two"></li>
+			<li id="three"></li>
+			<li id="four"></li>
+			<li id="five"></li>
+      <li id="six"></li>
+		</ul>
+		<hr/>
+		<h4>Glass: <p id="glass">glass</p></h4>
+		<h3 id="instructions">Instructions</h3>
 
 		<script type="text/javascript" src="js/main.js"></script>
 	</body>
