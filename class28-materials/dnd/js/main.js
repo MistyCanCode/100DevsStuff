@@ -131,7 +131,7 @@ function getFetch(){
        var options = []
        var subclasses = []
        //if(valOne >= 1){let valueOne = valOne.forEach(element => {choices.push(element.choose, element.from)})}
-       //console.log(choices)
+       console.log(choices)
        
        valTwo.forEach(element => {profs.push(element.name)})
        valThree.forEach(element => {throws.push(element.name)})
